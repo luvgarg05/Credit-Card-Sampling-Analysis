@@ -33,7 +33,7 @@ To study the effect of class balancing on model performance, **two separate expe
 
 ---
 
-# 🔹 Experiment A: Oversampling
+## 🔹 Experiment A: Oversampling
 
 In oversampling, the minority class (Class = 1) was increased to match the size of the majority class (Class = 0) by duplicating samples.  
 This approach preserves all original data but may introduce overfitting due to repeated instances.
@@ -42,7 +42,7 @@ The oversampled dataset was then used as input for applying different sampling t
 
 ---
 
-# 🔹 Experiment B: Undersampling
+## 🔹 Experiment B: Undersampling
 
 In undersampling, the majority class (Class = 0) was randomly reduced to match the size of the minority class (Class = 1).  
 This approach avoids data duplication but may lead to loss of potentially useful information.
