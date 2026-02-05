@@ -136,13 +136,16 @@ Five machine learning models were trained on each sampled dataset:
 
 ## 📉 Graphs
 
-### Oversampling Accuracy plot
-[Undersampling Plot](images/oversampling_plot.png)
-*Figure 1: Model accuracies (%) for undersampling — shows lower accuracy and higher variability across models.*
+### Oversampling Accuracy Plot
+![Oversampling Accuracy Plot](images/oversampling_plot.png)
+*Figure 1: Model accuracies (%) for oversampling — shows generally higher accuracy with signs of overfitting across some models.*
 
-### Undersampling Accuracy plot
-[Model Accuracy](images/undersampling_plot.png)
-*Figure 2: Combined model accuracies across sampling techniques — Random Forest performs best overall.*
+---
+
+### Undersampling Accuracy Plot
+![Undersampling Accuracy Plot](images/undersampling_plot.png)
+*Figure 2: Model accuracies (%) for undersampling — shows lower accuracy and higher variability across models.*
+
 
 #  Final Observations & Conclusions
 
