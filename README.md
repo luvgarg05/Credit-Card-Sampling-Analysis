@@ -93,7 +93,6 @@ Five machine learning models were trained on each sampled dataset:
 ### 🔹 Best Model per Sampling Technique (Oversampling)
 ![Best Models - Oversampling](images/best_models_oversampling.png)
 
----
 
 ## 📈 Results – Undersampling
 
