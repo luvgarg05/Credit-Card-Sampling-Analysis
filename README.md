@@ -88,19 +88,47 @@ Five machine learning models were trained on each sampled dataset:
 ## 📈 Results – Oversampling
 
 ### 🔹 Accuracy Matrix (Oversampling)
-![Oversampling Accuracy Matrix](images/oversampling_accuracy_matrix.png)
+
+|        Model        | Simple Random | Systematic | Stratified | Cluster | Bootstrap |
+|---------------------|---------------|------------|------------|---------|-----------|
+| Logistic Regression |     91.19     |   90.88    |    96.97   |  90.11  |   91.0    |
+|    Decision Tree    |     100.0     |   98.43    |    99.13   |  97.8   |   99.67   |
+|    Random Forest    |     100.0     |   99.37    |    99.57   |  100.0  |   100.0   |
+|        KNN          |     96.54     |   96.54    |    98.27   |  89.01  |   99.33   |
+|        SVM          |     97.8      |   96.54    |    97.4    |  96.7   |   96.67   |
 
 ### 🔹 Best Model per Sampling Technique (Oversampling)
-![Best Models - Oversampling](images/best_models_oversampling.png)
+
+| Sampling Technique |   Best Model  | Accuracy |
+|--------------------|---------------|----------|
+|    Simple Random   | Decision Tree |  100.0   |
+|     Systematic     | Random Forest |  99.37   |
+|     Stratified     | Random Forest |  99.57   |
+|      Cluster       | Random Forest |  100.0   |
+|     Bootstrap      | Random Forest |  100.0   | 
 
 
 ## 📈 Results – Undersampling
 
 ### 🔹 Accuracy Matrix (Undersampling)
-![Undersampling Accuracy Matrix](images/undersampling_accuracy_matrix.png)
+
+|        Model        | Simple Random | Systematic | Stratified | Cluster | Bootstrap |
+|---------------------|---------------|------------|------------|---------|-----------|
+| Logistic Regression |     25.0      |    50.0    |    50.0    |   50.0  |   100.0   |
+|    Decision Tree    |     25.0      |    50.0    |    50.0    |   0.0   |   100.0   |
+|    Random Forest    |     25.0      |    50.0    |    50.0    |   75.0  |   100.0   |
+|         KNN         |     50.0      |    0.00    |    50.0    |   25.0  |   100.0   |
+|         SVM         |     25.0      |    100.0   |    50.0    |   75.0  |   100.0   |
 
 ### 🔹 Best Model per Sampling Technique (Undersampling)
-![Best Models - Undersampling](images/best_models_undersampling.png)
+
+| Sampling Technique |      Best Model     | Accuracy |
+|--------------------|---------------------|----------|
+|   Simple Random    |         KNN         |   50.0   |
+|     Systematic     |         SVM         |   100.0  |
+|     Stratified     | Logistic Regression |   50.0   |
+|       Cluster      |    Random Forest    |   75.0   |
+|     Bootstrap      |    Decision Tree    |   100.0  |
 
 
 
