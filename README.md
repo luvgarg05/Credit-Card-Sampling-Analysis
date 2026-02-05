@@ -1,4 +1,4 @@
-##Lavanya Garg
+## Lavanya Garg
 # Sampling Assignment – Credit Card Dataset
 # 📌 Objective
 The objective of this assignment is to understand the importance of sampling techniques in handling imbalanced datasets and to analyze how different sampling strategies affect the performance of various machine learning models on a highly imbalanced credit card dataset.
