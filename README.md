@@ -31,8 +31,6 @@ The objectives of this assignment are to:
 
 To study the effect of class balancing on model performance, **two separate experiments** were conducted:
 
----
-
 ## 🔹 Experiment A: Oversampling
 
 In oversampling, the minority class (Class = 1) was increased to match the size of the majority class (Class = 0) by duplicating samples.  
