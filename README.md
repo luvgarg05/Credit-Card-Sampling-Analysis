@@ -89,24 +89,24 @@ Five machine learning models were trained on each sampled dataset:
 
 ---
 
-# 📈 Results – Oversampling
+## 📈 Results – Oversampling
 
-# 🔹 Accuracy Matrix (Oversampling)
+### 🔹 Accuracy Matrix (Oversampling)
 ![Oversampling Accuracy Matrix](images/oversampling_accuracy_matrix.png)
 
-# 🔹 Best Model per Sampling Technique (Oversampling)
+### 🔹 Best Model per Sampling Technique (Oversampling)
 ![Best Models - Oversampling](images/best_models_oversampling.png)
-
 
 ---
 
-#  Results - Undersampling
+## 📈 Results – Undersampling
 
-#  Accuracy Matrix (Undersampling)
+### 🔹 Accuracy Matrix (Undersampling)
 ![Undersampling Accuracy Matrix](images/undersampling_accuracy_matrix.png)
 
-#  Best Model per Sampling Technique (Undersampling)
+### 🔹 Best Model per Sampling Technique (Undersampling)
 ![Best Models - Undersampling](images/best_models_undersampling.png)
+
 
 
 ---
